@@ -1,0 +1,29 @@
+# ===== 第三方源码（MaxKB 上游项目，GPL-3.0）=====
+# 本地只作为参考与打补丁用，不纳入本仓库
+MaxKB/
+
+# 从容器内拷出的 MaxKB 源码副本 / 哈希清单
+output/c_*.py
+output/container_hashes.txt
+output/local_hashes.txt
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ===== 本地运行时产物 =====
+*.log
+.pytest_cache/
+.mypy_cache/
+
+# ===== 操作系统 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 本地环境变量（可能含真实凭据）=====
+.env
+.env.*
